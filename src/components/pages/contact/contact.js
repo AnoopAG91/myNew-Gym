@@ -15,11 +15,13 @@ function Contact() {
           
             <div className='map'></div>
             <div className='form'>
-              <input type='email' placeholder='enter email'></input> 
-              <input type='mobile' placeholder='enter mobile'></input>
-              <input type='password' placeholder='enter password'></input> 
-              <textarea placeholder='Type Your Message'></textarea>
-              <button>Send Message</button>  
+              <form action='https://formspree.io/f/xaygyakb' method='POST'>
+              <input type='email' name='email' placeholder='enter email'></input> 
+              <input type='mobile' name='mobile' placeholder='enter mobile'></input>
+              <input type='password' name='password' placeholder='enter password'></input> 
+              <textarea name='message' placeholder='Type Your Message'></textarea>
+              <button type='submit'>Send Message</button>  
+              </form>
             </div>  
            
           </div>  
