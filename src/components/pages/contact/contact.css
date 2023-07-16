@@ -52,3 +52,11 @@
     border-radius: 5px;
     cursor: pointer;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}

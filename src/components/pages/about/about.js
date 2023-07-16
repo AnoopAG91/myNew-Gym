@@ -16,7 +16,7 @@ function About() {
           <div className='about-main'>
           
           <div className='about-image'>
-            <img src='https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&w=400' alt='image'></img>
+            <img src='https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&w=400' alt='img'></img>
             
           </div>
           <div className='about-content'>

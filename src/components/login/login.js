@@ -12,11 +12,11 @@ function Login() {
 
     function handleClick(){
         let users= JSON.parse(localStorage.getItem("user"))       //creating a new variable and getting the datas from local storage. JSON.parse is used to convert the string into object
-        users.map((user,index)=>{                          // using map method toloop through each object elements in the array
+        users.map((user)=>{                          // using map method toloop through each object elements in the array
             if(user.email === email && user.password === password){       // giving a condition to check whether the given input is true or not
-                navigate("/")                  // if the given input is tru then it will redirect to the home page
+             return   navigate("/")                  // if the given input is tru then it will redirect to the home page
             }else{
-                alert("invalid user")         // else it will show an alert
+                return    alert("invalid user")         // else it will show an alert
             }
         })        
       
